@@ -1,0 +1,47 @@
+/* Space out content a bit */
+html, body { height: 100%; }
+.appContainer {
+  min-height: 100%;
+  display:block;
+}
+
+.appBackground {
+  background-color:#a60707;
+}
+.listRow {
+  padding: 2%;
+  border-bottom: solid 1px #ccc;
+}
+.listRow img {
+  max-width:100%;
+}
+.scoreLabel {
+  float:right;
+}
+
+.logoImage {
+  margin-left: 20px;
+  float:left;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  width: 70px;
+  margin: 20px;
+}
+
+.logo {
+  float: left;
+}
+
+.badges {
+  position:absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.ios-badge {
+  float:left;
+}
+.android-badge {
+  margin-left: 10px;
+  float:right;
+}
