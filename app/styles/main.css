@@ -19,6 +19,10 @@ html, body { height: 100%; }
   float:right;
 }
 
+.title { 
+  max-width: 100%;
+}
+
 .logoImage {
   margin-left: 20px;
   float:left;
@@ -33,15 +37,18 @@ html, body { height: 100%; }
 }
 
 .badges {
-  position:absolute;
-  bottom: 10%;
-  right: 10%;
 }
 
 .ios-badge {
-  float:left;
+  max-width: 50%;
+}
+
+.ios-badge img {
+  width:100%;
 }
 .android-badge {
-  margin-left: 10px;
-  float:right;
+  max-width:50%;
+}
+.android-badge img {
+  max-width: 100%;
 }
